@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: lugoland_production
-  username: lugoland
-  password: <%= ENV['LUGOLAND_DATABASE_PASSWORD'] %>
+  username:
+  password:
