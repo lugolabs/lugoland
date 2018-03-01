@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "iconly";
+  src: url(<%= asset_path('fonts/lugolabs/iconly.eot') %>);
+  src: url(<%= asset_path('fonts/lugolabs/iconly.eot?#iefix') %>) format("embedded-opentype"),
+       url(<%= asset_path('fonts/lugolabs/iconly.woff') %>) format("woff"),
+       url(<%= asset_path('fonts/lugolabs/iconly.ttf') %>) format("truetype"),
+       url(<%= asset_path('fonts/lugolabs/iconly.svg#iconly') %>) format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before,
+.iconly-0076-cloud-upload:before,
+.iconly-0077-cloud-download:before,
+.iconly-0096-database-remove:before,
+.iconly-0108-lock:before,
+.iconly-0115-cog:before,
+.iconly-0142-star:before,
+.iconly-0148-mailbox-full:before,
+.iconly-0175-floppy-disk:before,
+.iconly-0287-user:before,
+.iconly-0363-telephone:before,
+.iconly-0801-share2:before,
+.iconly-0803-magnifier:before,
+.iconly-connect:before {
+  display: inline-block;
+  font-family: "iconly";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.iconly-0076-cloud-upload:before { content: "\f114"; }
+.iconly-0077-cloud-download:before { content: "\f115"; }
+.iconly-0096-database-remove:before { content: "\f117"; }
+.iconly-0108-lock:before { content: "\f118"; }
+.iconly-0115-cog:before { content: "\f119"; }
+.iconly-0142-star:before { content: "\f11a"; }
+.iconly-0148-mailbox-full:before { content: "\f11b"; }
+.iconly-0175-floppy-disk:before { content: "\f11c"; }
+.iconly-0287-user:before { content: "\f104"; }
+.iconly-0363-telephone:before { content: "\f11d"; }
+.iconly-0801-share2:before { content: "\f11e"; }
+.iconly-0803-magnifier:before { content: "\f11f"; }
+.iconly-connect:before { content: "\f116"; }

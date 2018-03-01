@@ -1,24 +1,9 @@
-# README
+# Lugoland
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Lugoland is the open source playground of [Lugo Labs](https://www.lugolabs.com).
 
-Things you may want to cover:
+### Web Fonts
 
-* Ruby version
+#### Lugo Labs
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This page shows the web fonts used in the [Lugo Labs](https://www.lugolabs.com) website.
